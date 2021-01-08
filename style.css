@@ -106,10 +106,10 @@ img src{
   color: white; /* White text color */
 }
 
-.html {width: 90%; background-color: #4CAF50;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.python {width: 60%; background-color: #808080;} /* Dark Grey */
+.html {width: 85%; background-color: #4CAF50;} /* Green */
+.css {width: 75%; background-color: #2196F3;} /* Blue */
+.python {width: 70%; background-color: #f44336;} /* Red */
+.js {width: 45%; background-color: #808080;} /* Dark Grey */
 
 *{
   box-sizing: border-box;
@@ -189,6 +189,9 @@ input[type=submit]:hover {
 .my para{
   text-align: right;
 }
+.my para p{
+  font-family: 'Playfair Display',serif; 
+}
 
 .contactback-h1{
   
@@ -246,7 +249,7 @@ h1 span{
   }
 }
 .socials img{
-  justify-content: center;
+  text-align: center;
 
  
 }
