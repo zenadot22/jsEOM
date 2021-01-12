@@ -114,31 +114,6 @@ img src{
 *{
   box-sizing: border-box;
 }
-
-.column{
-  float:left;
-  width: 25%;
-  padding:0 10px;
-}
-.row{margin: 0-5px;}
-.row:after{
-  content:"";
-  display: table;
-  clear: both;
-}
-.card{
-  box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
-  padding:16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-@media screen and (max-width:600px){
-  .column{
-    width:100;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
 .contactback-pics{
   justify-content: center;
   height: 100%;
@@ -248,8 +223,71 @@ h1 span{
     display: block;
   }
 }
-.socials img{
-  text-align: center;
+.socials{
+  margin-top: -15%;
+  margin-left: 38%;
+    
+}
 
- 
+* {
+  box-sizing: border-box;
+}
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+/* .row {
+  margin: 8px -16px;
+} */
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.main{
+  display:flex;
+  flex-direction: row;
 }
