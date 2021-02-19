@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color:#333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 15%;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 50px;
+    text-decoration: none;
+    font-family: 'Playfair Display',serif; 
+    font-size: 140%;
+
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+
+ .rounded-img{
+    height: 10%;
+    width:20%;
+    /* border-radius: 50%; */
+    }
+  .paragraph{
+    justify-content: left;
+    text-align:left;
+    left: 50%;
+   font-family: 'Playfair Display',serif; 
+  }
+  img src{
+    height: 10%;
+    width: 20%;
+    /* border-radius: 50%; */
+  }
+  * Make sure that padding behaves as expected */
+  * {box-sizing:border-box}
+   */
+  /* Container for skill bars */
+  .container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  
+  .skills {
+    text-align: left; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 85%; background-color:grey;} /* Green */
+  .css {width: 75%; background-color:grey;} /* Blue */
+  .python {width: 70%; background-color:grey;} /* Red */
+  .js {width: 45%; background-color: grey;} /* Dark Grey */
+
+  h1{
+    text-align: center;
+    /*text-decoration:underline;*/
+    font-family: 'Playfair Display',serif;
+    /* font-weight: bold; */
+ }
+
+.about{
+    display: flex;
+  }
+  .my para{
+    text-align: right;
+  }
+  .my para p{
+    font-family: 'Playfair Display',serif; 
+  }  
+  h1 span{
+    border:4px dashed #20bcd5;
+    padding:10px;
+  }
+  /* Style the container with a rounded border, grey background and some padding and margin */
+  .testimonials{
+    border:2px solid  #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+  /* Clear floats after containers */
+  .testimonials::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .testimonials img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .testimonials span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  @media (max-width: 500px) {
+    .testimonials {
+      text-align: center;
+    }
+  
+    .testimonials img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
